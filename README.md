@@ -25,3 +25,4 @@ Thermal Gradients by Subassembly (units in Kelvin)
 - Summary plots: /summary_plots/
 - Analysis document: SPT4_Cryostat_Temperature_Gradient_Characterization.pdf
 - Python code: /python_code/
+- Focal plane analysis: /focal_plane_thermal_bus/
