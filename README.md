@@ -15,7 +15,6 @@ Assessment of thermal gradient across conductive pathways from Pulse Tube Cryo-c
 
 
 ## Summary of Results:
-- 
 
 Thermal Gradients by Subassembly (units in Kelvin)
 | 50 Kelvin (1D) | 50 Kelvin (FEA) | 4 Kelvin (1D) | 4 Kelvin (FEA) | Optics Tube Spread (Al1100) | Optics Tube Spread (OFHC Cu) |
