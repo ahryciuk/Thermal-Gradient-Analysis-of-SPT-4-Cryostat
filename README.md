@@ -23,5 +23,6 @@ Thermal Gradients by Subassembly (units in Kelvin)
 | 19.7 | 18.12 | 4.14 | 4.61 | 1.88 | 0.24 |
 
 ## Files:
+- Summary plots: /summary_plots/
 - Analysis document: SPT4_Cryostat_Temperature_Gradient_Characterization.pdf
-- Python code: 
+- Python code: /python_code/
