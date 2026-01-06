@@ -28,7 +28,7 @@ Thermal Gradients by Subassembly (units in Kelvin)
 ![50 Kelvin subassembly FEA](summary_plots/pngs/50_Kelvin_FEA.PNG)
 
 4 Kelvin subassembly FEA
-![4 Kelvin subassembly FEA](summary_plots/4_Kelvin_OFHC_FEA.PNG)
+![4 Kelvin subassembly FEA](summary_plots/4_Kelvin_OFHC_FEA.png)
 
 ## Files:
 - CAD renders: /renders/
