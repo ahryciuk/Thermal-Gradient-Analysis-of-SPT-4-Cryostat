@@ -11,7 +11,7 @@ Assessment of thermal gradient across conductive pathways from Pulse Tube Cryo-c
 - SPT-3G empirically showed braided OFHC copper heat straps have a load-dependent temperature drop of ~0.12 K/W for 2"x2" footprints
 - PT420 cold head temperatures (see Thermal Budget repo): https://cdn.bluefors.com/wp-content/uploads/2023/09/22145601/PT420-RM-Capacity-Curve.pdf
 - heat generation from optics tubes based on lens absorption is ~30 mW per tube
-- heat generation from alumina filters is ~1.2 W per tube (see Thermal Budget) 
+- heat generation from alumina filters is ~1.2 W per tube (see [Thermal Budget](https://github.com/ahryciuk/Thermal-Budgeting-of-SPT-4-Cryostat)) 
 
 
 ## Summary of Results:
