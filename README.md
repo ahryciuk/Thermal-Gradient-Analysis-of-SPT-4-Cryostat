@@ -6,10 +6,10 @@ Assessment of thermal gradient across conductive pathways from Pulse Tube Cryo-c
 - developed Python code bases to perform analytic calculations with varying design geometry and material properties
 
 ## Notes and Assumptions:
-- material properties from NIST database: https://trc.nist.gov/cryogenics/materials/materialproperties.htm
+- material properties from [NIST database](https://trc.nist.gov/cryogenics/materials/materialproperties.htm)
 - contact resistance of OFHC copper: Siddappa, P., & Tariq, A. 2023, Applied Thermal Engineering, 219, 119412, doi: https://doi.org/10.1016/j.applthermaleng.2022.119412
 - SPT-3G empirically showed braided OFHC copper heat straps have a load-dependent temperature drop of ~0.12 K/W for 2"x2" footprints
-- PT420 cold head temperatures (see Thermal Budget repo): https://cdn.bluefors.com/wp-content/uploads/2023/09/22145601/PT420-RM-Capacity-Curve.pdf
+- PT420 cold head temperatures (see [Thermal Budget](https://github.com/ahryciuk/Thermal-Budgeting-of-SPT-4-Cryostat)): https://cdn.bluefors.com/wp-content/uploads/2023/09/22145601/PT420-RM-Capacity-Curve.pdf
 - heat generation from optics tubes based on lens absorption is ~30 mW per tube
 - heat generation from alumina filters is ~1.2 W per tube (see [Thermal Budget](https://github.com/ahryciuk/Thermal-Budgeting-of-SPT-4-Cryostat)) 
 
