@@ -21,7 +21,8 @@ Thermal Gradients by Subassembly (units in Kelvin)
 |:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
 | 19.7 | 18.12 | 4.14 | 4.61 | 1.88 | 0.24 |
 
-![1D temperature calculation](summary_plots/pngs/blah)
+1D temperature results
+![1D temperature calculation](summary_plots/pngs/1D_temperature_calculations.PNG)
 
 ## Files:
 - CAD renders: /renders/
