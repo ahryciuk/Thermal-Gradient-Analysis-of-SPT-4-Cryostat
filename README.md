@@ -24,6 +24,12 @@ Thermal Gradients by Subassembly (units in Kelvin)
 1D temperature results
 ![1D temperature calculation](summary_plots/pngs/1D_temperature_calculations.PNG)
 
+50 Kelvin subassembly FEA
+![50 Kelvin subassembly FEA](summary_plots/pngs/50_Kelvin_FEA.PNG)
+
+4 Kelvin subassembly FEA
+![4 Kelvin subassembly FEA](summary_plots/4_Kelvin_OFHC_FEA.PNG)
+
 ## Files:
 - CAD renders: /renders/
 - Summary plots: /summary_plots/
