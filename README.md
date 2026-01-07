@@ -1,5 +1,5 @@
 # Thermal-Gradient-Analysis-of-SPT-4-Cryostat
-Assessment of thermal gradient across conductive pathways from Pulse Tube Cryo-cooler to key internal subassemblies. I needed to verify that the temperatures were within the dynamic range for the optics to function. The highest temperature for the 50 Kelvin subassembly was spec'd to be 65 Kelvin, which is the trade-off point for the alumina infrared filters to emit significant optical loading onto the focal plane. The 4 Kelvin assembly contains the mounting for all seven of the optics tubes, whose silicon lenses cannot be hotter than 8 Kelvin. Silicon transitions from a lens to a hot blackbody near 10 Kelvin (and therefore must be cold). 
+Assessment of thermal gradient across conductive pathways from Pulse Tube Cryo-cooler to key internal subassemblies. I needed to verify that the temperatures were within the dynamic range for the optics to function. The highest temperature for the 50 Kelvin subassembly was spec'd to be 70 Kelvin, which is the trade-off point for the alumina infrared filters to emit significant optical loading onto the focal plane. The 4 Kelvin assembly contains the mounting for all seven of the optics tubes, whose silicon lenses cannot be hotter than 8 Kelvin. Silicon transitions from a lens to a hot blackbody near 10 Kelvin (and therefore must be cold). 
 
 I performed static thermal finite element analyses of each subassembly with temperature-dependent material properties. I corroborated these FEAs using 1D numerical calculations defined in the attached Python code, whose predictions were within 12% of the FEA results. Both numerical and FEA show that these two subassemblies meet these thermal requirements under circumstance of the heat load and Cryomech PT420 cryo-cooler. 
 
@@ -8,7 +8,7 @@ I performed static thermal finite element analyses of each subassembly with temp
 - developed Python code bases to perform analytic calculations with varying design geometry and material properties
 
 ## Temperature constraints:
-- The highest temperature of the 50 Kelvin subassembly is 65 Kelvin, set by the alumina infrared filters
+- The highest temperature of the 50 Kelvin subassembly is 70 Kelvin, set by the alumina infrared filters
 - The highest temperature of the 4 Kelvin subassembly is 8 Kelvin, set by the silicon lenses
 
 ## Notes and Assumptions:
