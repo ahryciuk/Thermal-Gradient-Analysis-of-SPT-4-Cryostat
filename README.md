@@ -1,7 +1,7 @@
 # Thermal-Gradient-Analysis-of-SPT-4-Cryostat
 Assessment of thermal gradient across conductive pathways from Pulse Tube Cryo-cooler to key internal subassemblies. I needed to verify that the temperatures were within the dynamic range for the optics to function. The highest temperature for the 50 Kelvin subassembly was spec'd to be 70 Kelvin, which is the trade-off point for the alumina infrared filters to emit significant optical loading onto the focal plane. The 4 Kelvin assembly contains the mounting for all seven of the optics tubes, whose silicon lenses cannot be hotter than 8 Kelvin. Silicon transitions from a lens to a hot blackbody near 10 Kelvin (and therefore must be cold). 
 
-I performed static thermal finite element analyses of each subassembly with temperature-dependent material properties. I corroborated these FEAs using 1D numerical calculations defined in the attached Python code, whose predictions were within 12% of the FEA results. Both numerical and FEA show that these two subassemblies meet these thermal requirements under circumstance of the heat load and Cryomech PT420 cryo-cooler. 
+I performed static thermal finite element analyses of each subassembly with temperature-dependent material properties. I corroborated these FEAs using 1D numerical calculations defined in the attached Python code, whose predictions were within 12% of the FEA results. Both numerical and FEA show that these two subassemblies meet these thermal requirements under circumstance of the heat load and Cryomech PT420 cryo-cooler, but a thermal model of the optics tubes needs to be built in order to understand the temperature gradients present in the lenses.
 
 ## My Role:
 - performed both analytic and finite element analyses to evaluate thermal gradients across the 50 Kelvin and 4 Kelvin subassemblies
@@ -21,6 +21,8 @@ I performed static thermal finite element analyses of each subassembly with temp
 
 
 ## Summary of Results:
+
+Analysis shows that the current subassembly designs fit within the temperature constraints for operation. Improvements can be made to add some extra margin especially at 50 Kelvin, which is limited by the thin alumina filter mount. Some extra thickness would allow for better thermalization and heat sink the filters better.
 
 Thermal Gradients by Subassembly (units in Kelvin)
 | 50 Kelvin (1D) | 50 Kelvin (FEA) | 4 Kelvin (1D) | 4 Kelvin (FEA) | Optics Tube Spread (Al1100) | Optics Tube Spread (OFHC Cu) |
