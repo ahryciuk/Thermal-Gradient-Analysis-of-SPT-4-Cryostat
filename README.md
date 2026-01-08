@@ -44,3 +44,7 @@ Thermal Gradients by Subassembly (units in Kelvin)
 - Analysis document: SPT4_Cryostat_Temperature_Gradient_Characterization.pdf
 - Python code: /python_code/
 - Focal plane analysis: /focal_plane_thermal_bus/
+
+## Bibliography:
+All figures from
+- Hryciuk, Alexander. 2025. “The SPT-3G Wide Survey Galaxy Cluster Catalog and the SPT-3G+ Cryostat Design.” University of Chicago. https://doi.org/10.6082/UCHICAGO.15844.
