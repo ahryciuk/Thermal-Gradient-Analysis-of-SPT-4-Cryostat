@@ -12,7 +12,7 @@ I performed static thermal finite element analyses of each subassembly with temp
 - The highest temperature of the 4 Kelvin subassembly is 8 Kelvin, set by the silicon lenses
 
 ## Notes and Assumptions:
-- material properties from [NIST database](https://trc.nist.gov/cryogenics/materials/materialproperties.htm)
+- temperature-dependent material properties from [NIST database](https://trc.nist.gov/cryogenics/materials/materialproperties.htm)
 - contact resistance of OFHC copper: Siddappa, P., & Tariq, A. 2023, Applied Thermal Engineering, 219, 119412, doi: https://doi.org/10.1016/j.applthermaleng.2022.119412
 - SPT-3G empirically showed braided OFHC copper heat straps have a load-dependent temperature drop of ~0.12 K/W for 2"x2" footprints
 - PT420 cold head temperatures (see [Thermal Budget](https://github.com/ahryciuk/Thermal-Budgeting-of-SPT-4-Cryostat)): https://cdn.bluefors.com/wp-content/uploads/2023/09/22145601/PT420-RM-Capacity-Curve.pdf
